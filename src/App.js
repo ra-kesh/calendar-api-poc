@@ -60,6 +60,12 @@ function App() {
           });
         });
     });
+
+    setSummary("");
+    setDescription("");
+    setLocation("");
+    setStartDate("");
+    setEndDate("");
   };
 
   function loadEvents() {
